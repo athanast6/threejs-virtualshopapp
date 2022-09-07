@@ -207,7 +207,7 @@ function animate() {
 };
 
 document.getElementById('depopshop').addEventListener("keypress", function(event) {
-    if (event.key === 'Enter') {
+    if (event.key === 'Enter' || event.key.code === '13') {
         addImages(event.currentTarget.value);
     }
 });
