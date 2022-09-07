@@ -206,7 +206,7 @@ function animate() {
     renderer.render( scene, camera );
 };
 
-document.getElementById('depopshop').addEventListener("keyup", function(event) {
+document.getElementById('depopshop').addEventListener("keypress", function(event) {
     if (event.key === 'Enter') {
         addImages(event.currentTarget.value);
     }
