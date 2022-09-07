@@ -1,5 +1,5 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.144.0/three.module.js'
-import { OrbitControls } from '/threejsvirtualshopapp/OrbitControls.js'
+import { OrbitControls } from '/threejs-virtualshopapp/OrbitControls.js'
 import MouseMeshInteraction from '/threejs-virtualshopapp/three_mmi.js'
 import { GLTFLoader } from '/threejs-virtualshopapp/GLTFLoader.js'
 import { FontLoader } from '/threejs-virtualshopapp/FontLoader.js'
