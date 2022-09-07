@@ -1,8 +1,8 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/0.144.0/three.module.js'
-import { OrbitControls } from '/OrbitControls.js'
-import MouseMeshInteraction from '/three_mmi.js'
-import { GLTFLoader } from '/GLTFLoader.js'
-import { FontLoader } from '/FontLoader.js'
+import { OrbitControls } from './OrbitControls.js'
+import MouseMeshInteraction from './three_mmi.js'
+import { GLTFLoader } from './GLTFLoader.js'
+import { FontLoader } from './FontLoader.js'
 
 
 
