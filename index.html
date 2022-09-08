@@ -31,6 +31,20 @@
         input:focus{
             opacity:1;
         }
+
+        p {
+            position: fixed;
+            top: 10vh;
+            left: 50vw;
+            transform: translate(-50%,-50%);
+            border:1px solid #fff;
+            background: transparent;
+            padding: 10px 20px;
+            font-size:24px;
+            color:#000;
+            opacity:0.2;           
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -39,7 +53,7 @@
 
 <body>
     <a><input type="text" id="depopshop" placeholder="Enter a depop username"></a>
-
+    <p> Please type a depop username and hit the enter key. </p>
     <script type ="module" src="index.js"></script>
 </body>
 </html>
