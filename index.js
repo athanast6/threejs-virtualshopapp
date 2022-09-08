@@ -212,4 +212,11 @@ document.getElementById('depopshop').addEventListener("keypress", function(event
     }
 });
 
+document.getElementById('searchbutton').addEventListener("click", function(event) {
+    const username = document.getElementById('depopshop').value;
+    //console.log(username);
+    addImages(username);
+    
+});
+
 animate();
