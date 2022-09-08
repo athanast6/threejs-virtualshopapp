@@ -14,7 +14,7 @@
 
         input {
             position: fixed;
-            top: 90vh;
+            top: 85vh;
             left: 50vw;
             transform: translate(-50%,-50%);
             border:1px solid #fff;
@@ -26,11 +26,19 @@
             outline:none;
             transition:0.5s;
             border-radius: 5px;
-            width:600px;
         }
 
         input:focus{
             opacity:1;
+        }
+        button{
+            position: fixed;
+            top: 80vh;
+            left: 50vw;
+            transform: translate(-50%,-50%);
+            border:1px solid #fff;
+            background: transparent;
+            
         }
 
         
@@ -41,7 +49,8 @@
 
 
 <body>
-    <a><input type="text" id="depopshop" placeholder="Please type a depop username and hit the enter key." ></a>
+    <input type="text" id="depopshop" placeholder="Enter Depop Account" >
+    <button type="button" id="searchbutton">Search</button>
     <script type ="module" src="index.js"></script>
 </body>
 </html>
